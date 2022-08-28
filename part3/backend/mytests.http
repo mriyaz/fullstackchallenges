@@ -1,0 +1,21 @@
+
+###
+get http://localhost:3001/api/persons
+
+###
+get http://localhost:3001/api/persons/62ca92ea8e146b00104716cc
+
+###
+get http://localhost:3001/info
+
+###
+delete http://localhost:3001/api/persons/62ca92ea8e146b00104716cc
+
+###
+POST http://localhost:3001/api/persons HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Sabantha Silero",
+    "number": "47-4545234"
+}

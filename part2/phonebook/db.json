@@ -1,0 +1,49 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "name": "Arto Hellas",
+      "number": "22-222222"
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Mujo Majo",
+      "number": "90-4598343-98",
+      "id": 6
+    },
+    {
+      "name": "Ahinga Ahunga",
+      "number": "45-5445-45454-54",
+      "id": 7
+    },
+    {
+      "name": "Gemini Uderzo",
+      "number": "10-1010-101010",
+      "id": 8
+    },
+    {
+      "name": "Ajuha Bamaka",
+      "number": "39-239724223",
+      "id": 9
+    },
+    {
+      "name": "Razali Zalali",
+      "number": "4-2423-23232",
+      "id": 10
+    },
+    {
+      "name": "Michael Zumito",
+      "number": "23-2324-23232-32323",
+      "id": 11
+    },
+    {
+      "name": "Zatina Maldini",
+      "number": "9034-348734",
+      "id": 12
+    }
+  ]
+}
