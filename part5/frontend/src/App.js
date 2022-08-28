@@ -1,3 +1,4 @@
+
 import { useState, useEffect, useRef } from "react";
 import Blog from "./components/Blog";
 import Togglable from "./components/Togglable";
@@ -116,6 +117,7 @@ const App = () => {
   const loginForm = () => (
     <form onSubmit={handleLogin}>
       <div>
+
         username:{" "}
         <input
           type="text"
@@ -156,6 +158,7 @@ const App = () => {
     <div>
       <h2>Blogs</h2>
       <Notification message={msg} classname={classname} />
+
       {user === null ? (
         loginForm()
       ) : (
@@ -166,6 +169,7 @@ const App = () => {
           </p>
 
           {blogForm()}
+
 
           <br />
           <hr />

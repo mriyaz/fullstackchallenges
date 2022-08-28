@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import blogService from "../services/blogs";
 const Blog = ({ blog, loggedUserId, reloadBlogs, handleLikeUpdate }) => {
@@ -19,13 +20,7 @@ const Blog = ({ blog, loggedUserId, reloadBlogs, handleLikeUpdate }) => {
   const showForCreator = {
     display: blog.user && loggedUserId === blog.user.id ? "" : "none",
   };
-  /** const showForCreator = () => {
-    if (blog.user && loggedUserId === blog.user.id) {
-      return { display: "" };
-    } else {
-      return { display: "none" };
-    }
-  }; */
+ 
   console.log("showForCreator==", showForCreator);
 
   const toggleReveal = () => {
