@@ -53,7 +53,7 @@ export const createAnecdotes = (content) => {
 };
 
 export const voteAnecdote = (anecdote) => {
-  console.log("anecdote in voteAnecdote::", JSON.stringify(anecdote));
+  // console.log("anecdote in voteAnecdote::", JSON.stringify(anecdote));
   return async (dispatch) => {
     await anecdoteService.updateVote({
       id: anecdote.id,

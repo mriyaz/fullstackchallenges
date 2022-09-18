@@ -12,9 +12,9 @@ const createNew = async (content) => {
 };
 
 const updateVote = async (content) => {
-  console.log("anecdote in updateVote is::", JSON.stringify(content));
+  //console.log("anecdote in updateVote is::", JSON.stringify(content));
   const response = await axios.patch(`${baseUrl}/${content.id}`, content);
-  console.log("response in updateVote is::" + JSON.stringify(response));
+  //console.log("response in updateVote is::" + JSON.stringify(response));
   return response.data;
 };
 
